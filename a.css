@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fce9dc;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    font-size: 24px;
+    color: #e77a24;
+    font-weight: bold;
+}
+
+.clove {
+    font-size: 28px;
+}
+
+.dental {
+    font-size: 16px;
+    margin-left: 5px;
+    color: #000;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #4b4b4b;
+    font-size: 16px;
+}
+
+
+.buttons {
+    display: flex;
+}
+
+.btn-appointment {
+    background-color: #e77a24;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-right: 15px;
+}
+
+.btn-help {
+    border: 2px solid #e77a24;
+    color: #e77a24;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.btn-help:hover, .btn-appointment:hover {
+    opacity: 0.8;
+}
